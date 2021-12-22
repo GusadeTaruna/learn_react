@@ -8,6 +8,9 @@ start app :
 props !important {props.key}
 - used to passing variable/data/items/whatever its called from App to component (reusable)
 
+props.children {props.children}
+- could be used to make a custom wraper (div), children will be a content inside wraper
+
 passing array from App to component
 -> <Component var={arrayName} /> (This is for passing the entire items that available in the array)
 -> <Component var1={arrayName[index].content1} var2={arrayName[index].content2} /> (This is for passing one/each or more items that available in the array)
