@@ -1,0 +1,13 @@
+-----Gusade self learning react note-----
+
+making react app:
+- npx create-react-app nama-app
+start app :
+- npm start
+
+props !important {props.key}
+- used to passing variable/data/items/whatever its called from App to component (reusable)
+
+passing array from App to component
+-> <Component var={arrayName} /> (This is for passing the entire items that available in the array)
+-> <Component var1={arrayName[index].content1} var2={arrayName[index].content2} /> (This is for passing one/each or more items that available in the array)
