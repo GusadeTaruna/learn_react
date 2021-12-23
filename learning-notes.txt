@@ -14,3 +14,8 @@ props.children {props.children}
 passing array from App to component
 -> <Component var={arrayName} /> (This is for passing the entire items that available in the array)
 -> <Component var1={arrayName[index].content1} var2={arrayName[index].content2} /> (This is for passing one/each or more items that available in the array)
+
+Can be used to update what have been drawn on screen
+-> using state or useState()
+--> example var = const [valueName, funcName] = useState(data);
+---> valueName is used to print the value, and funcName is used to change what have been drawn on screen by callin it and set the new value
